@@ -1,0 +1,97 @@
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 2vw 0 2vw 0;
+} 
+.banner h1 {
+    text-align: center;
+    margin: 2vw 0 2vw 0;
+    font-size: 85px;
+    letter-spacing: 1px;
+    color: rgb(189, 189, 189); text-shadow: black  0.1em 0.1em 0.2em;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    
+
+}
+.banner h1 span{
+    color: darkgreen;
+}
+.banner img {
+    justify-content: center;
+    padding: 0 20vw 2vw 20vw;
+    height: 1px;
+}
+.banner div p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    color: rgb(176, 177, 174);
+}
+.banner div h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgb(88, 177, 60);
+    margin: 2vw;
+}
+/* Formatação celulas */
+.celulas {
+  text-align: center;
+  margin: 3vw 0 2vw 0;
+   
+}
+.celulas h2 {
+    font-size: 70px;
+    color: rgb(189, 189, 189); text-shadow: black  0.1em 0.1em 0.2em;
+    letter-spacing: 2px;
+    margin: 2vw 0 1vw 0;
+    font-family: "Bebas Neue" ;
+}
+.celulas h2 span {
+    color: darkgreen;
+}
+.celulas div.mae {
+    display: flex;
+    justify-content: center;
+    
+}
+.celulas div.mae div {
+    margin: 2vw 3vw 2vw 3vw;
+    background-color: darkgreen;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 10px;
+}
+.celulas div.mae div h3 {
+    font-size: 3vw;
+    margin: 4vw 4vw 2vw 4vw;
+    font-weight: normal;
+    letter-spacing: 2px;
+    color: rgb(189, 189, 189) ; text-shadow: black  0.1em 0.1em 0.2em;
+    font-family: "Bebas Neue";
+}
+.celulas div.mae img {
+        max-width: 12vw;
+        max-height: 12vw;
+        margin: 3vw 1vw ;
+        border-radius: 10px;
+}
+.celulas div.mae div img:hover {
+    box-shadow: 0 0 10px #dfdfdf;
+    transition: all 0.3s linear;
+}
+.celulas div.mae div:last-child img {
+    margin: 5vw 3vw;
+}
+.celulas p {
+    color: rgb(221, 214, 214);
+    margin: 2vw 0;
+}
+.celulas div.mae div:hover {
+
+    width: 32vw;
+    height: 32vw;
+    transition: 300ms linear; 
+  }

@@ -1,0 +1,82 @@
+/* Formatação Banner*/
+
+.banner {
+    text-align: center;
+}
+.banner h1 {
+    text-align: center;
+    margin: 2vw 0 2vw 0;
+    font-size: 85px;
+    letter-spacing: 1px;
+    color: rgb(189, 189, 189); text-shadow: black  0.1em 0.1em 0.2em;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+    
+
+}
+.banner h1 span{
+    color: darkgreen;
+}
+
+.banner div.conteudo {
+    display: flex;
+    background-color: darkgreen;
+    width: 70vw;
+    height: 17vw;
+    border-radius: 10PX;
+    margin: 0 12vw;
+    padding: 2vw ;
+}
+.banner div.conteudo p {
+    color: rgb(189, 189, 189) ;
+    margin: 2vw 1vw;
+    line-height: 23px;
+    font-size: 15px;
+}
+.banner div.conteudo img {
+    max-width: 12vw;
+    max-height: 12vw;
+    margin: 2vw  ;
+} 
+.banner p {
+    text-align: center;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgb(88, 177, 60);
+    margin: 2vw;
+    line-height: 30px;
+}
+.banner div.separa {
+    justify-content: center;
+    padding: 0 20vw 2vw 20vw;
+    height: 1px;
+}
+
+/* Formatação células */
+
+.animais h1 {
+    text-align: center;
+    margin: 2vw 0 2vw 0;
+    font-size: 75px;
+    letter-spacing: 1px;
+    color: rgb(189, 189, 189); text-shadow: black  0.1em 0.1em 0.2em;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+}
+.animais h1 span {
+    color: darkgreen;
+}
+.animais p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 30px;
+    color: rgb(176, 177, 174);
+    margin: 1vw 7vw;
+}
+.animais h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 17px;
+    color: rgb(88, 177, 60);
+    margin: 2vw;
+}
