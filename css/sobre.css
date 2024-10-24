@@ -1,0 +1,32 @@
+.nos h1 {
+    text-align: center;
+    margin: 2vw 0 2vw 0;
+    font-size: 85px;
+    letter-spacing: 1px;
+    color: rgb(189, 189, 189); text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Bebas Neue';
+    font-weight: normal;
+}
+.nos div {
+    display: flex;
+    justify-content: space-between;
+}
+.nos div img {
+    max-width: 30vw;
+    max-height: 30vw;
+    margin: 0 10vw 0 10vw;
+}
+.nos p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(176, 177, 174);
+    margin: 3vw 1vw ;
+}
+.nos p.site {
+    color: darkgreen; text-shadow: black 0.1em 0.1em 0.2em;
+    text-align: center;
+    font-size: 25px;
+    margin: 5vw 0 0 0;
+    font-family: 'Bebas Neue';
+}

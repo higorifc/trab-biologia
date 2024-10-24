@@ -1,1 +1,74 @@
 /*Formatação topo*/
+
+.procariotas h1 {
+    text-align: center;
+    margin: 2vw 0 2vw 0;
+    font-size: 85px;
+    letter-spacing: 1px;
+    color: rgb(189, 189, 189); text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: Bebas Neue;
+    font-weight: normal;
+}
+.procariotas h1 span {
+    color: darkgreen;
+}
+.procariotas p.nucleo {
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: normal;
+    color: rgb(88, 177, 60);
+    margin: 2vw 0 2vw 0;
+    font-size: 17px;
+    line-height: 30px;
+}
+.procariotas div.procariontes {
+    display: flex;
+    background-color: darkgreen;
+    width: 70vw;
+    height: 17vw;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0 12vw;
+    padding: 2vw;
+}
+.procariotas div.procariontes p {
+    color: rgb(189, 189, 189);
+    margin: 2vw 1vw;
+    line-height: 23px;
+    font-size: 17.5px;
+}
+.procariotas div.procariontes img {
+    max-width: 12vw;
+    max-height: 12vw;
+    margin: 2vw;
+}
+
+/*Formatação características*/
+
+.caracteristicas h2 {
+    margin: 3vw 0 3vw 0;
+    text-align: center;
+    font-size: 70px;
+    color: rgb(189, 189, 189); text-shadow: black 0.1em 0.1em 0.2em;
+    font-family: 'Bebas Neue';
+    letter-spacing: 1px;
+    font-weight: normal;
+} 
+.caracteristicas h2 span {
+    color: darkgreen;
+}
+.caracteristicas p {
+    text-align: center;
+    font-size: 17px;
+    line-height: 20px;
+    color: rgb(176, 177, 174);
+    margin: 1vw 7vw;
+    justify-content: space-between;
+}
+.caracteristicas h3 {
+    text-align: center;
+    font-weight: normal;
+    font-size: 17px;
+    margin: 2vw;
+    color: rgb(88, 177, 60)
+}
